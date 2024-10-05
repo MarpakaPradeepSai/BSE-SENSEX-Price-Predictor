@@ -47,7 +47,7 @@ def predict_next_business_days(model, data, look_back=10, days=5):
     return predictions
 
 # Streamlit app layout
-st.markdown("<h1 style='text-align: center; font-size: 50px;'>BSE SENSEX Price Predictor 📈📉</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 45px;'>BSE SENSEX Price Predictor 📈📉</h1>", unsafe_allow_html=True)
 
 # Center the BSE SENSEX logo image
 st.markdown(
