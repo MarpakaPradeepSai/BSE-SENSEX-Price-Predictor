@@ -157,5 +157,5 @@ if st.button(f'Predict Next {num_days} Days BSE SENSEX Prices', key='forecast-bu
         'Date': prediction_dates,
         'Predicted Price': predictions.flatten()
     })
-    st.markdown(f"##### Predicted Stock Prices for the Next {num_days} Business Days (BSE SENSEX)")
+    st.markdown(f"##### Predicted Index Prices for the Next {num_days} Business Days (BSE SENSEX)")
     st.dataframe(prediction_df, width=600)
