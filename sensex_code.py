@@ -128,7 +128,7 @@ if st.button(f'Predict Next {num_days} Days BSE SENSEX Prices', key='forecast-bu
     ax.plot(prediction_dates, predictions, label='Predicted Prices', linestyle='--', color='red')
     ax.set_xlabel('Date')
     ax.set_ylabel('Price')
-    ax.set_title('BSE SENSEX Stock Prices', fontsize=10, fontweight='bold')
+    ax.set_title('BSE SENSEX Index Prices', fontsize=10, fontweight='bold')
     ax.legend()
 
     st.pyplot(fig)
@@ -140,7 +140,7 @@ if st.button(f'Predict Next {num_days} Days BSE SENSEX Prices', key='forecast-bu
     ax2.plot(prediction_dates, predictions, marker='o', color='blue')
     ax2.set_xlabel('Date')
     ax2.set_ylabel('Predicted Price')
-    ax2.set_title(f'Predicted Stock Prices for the Next {num_days} Business Days (BSE SENSEX)', fontsize=10, fontweight='bold')
+    ax2.set_title(f'Predicted Index Prices for the Next {num_days} Business Days (BSE SENSEX)', fontsize=10, fontweight='bold')
     
     # Use DayLocator to specify spacing of tick marks and set the format for the date labels
     ax2.xaxis.set_major_locator(mdates.DayLocator(interval=1))
