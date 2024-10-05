@@ -53,7 +53,7 @@ st.markdown("<h1 style='text-align: center; font-size: 50px;'>BSE SENSEX Price P
 st.markdown(
     """
     <div style="display: flex; justify-content: center;">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/BSE_SENSEX.svg/1200px-BSE_SENSEX.svg.png" width="500">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/S%26P_BSE_Sensex_Logo_2022.svg/1920px-S%26P_BSE_Sensex_Logo_2022.svg.png" width="500">
     </div>
     """,
     unsafe_allow_html=True
